@@ -4,8 +4,7 @@ Sistema simples de acervo de biblioteca, feito para praticar **programação ori
 
 > Projeto de estudos, sem frameworks nem bibliotecas externas.
 
-<!-- Adicione aqui um print da página, por exemplo:
-![Tela do sistema](docs/tela.png) -->
+![Tela do sistema de biblioteca](image.png)
 
 ## Funcionalidades
 
