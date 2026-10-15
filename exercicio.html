@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Biblioteca</h1>
+    <div id="Div-pai-adicionar-livro">
+        <label for="item-selecionado">Escolha um tipo de item:</label>
+        <select id="item-selecionado" name="qual_seu_livro">
+            <option value=""> </option>
+            <option value="livros">livro</option>
+            <option value="revistas">revista</option>
+        </select>
+        <input type="text" id="input-item" name="nome" placeholder= "Nome do livro" required >
+        <input type="text" id="input-autor" name="nome" placeholder= "Nome do autor" required>
+        <button id="adicionar">adicione aqui</button>
+    </div>
+    <div id="Div-pai">
+        <ul id="lista-acervo">
+
+        </ul>
+        <button id="btn-listar">Listar acervo</button>
+    </div>
+    <div>
+        <ul id="lista-disponiveis">
+
+        </ul>
+        <button id="btn-listar-disponiveis">Listar acervo disponiveis</button>
+    </div>
+
+    <div>
+        <label for="empresta-devolve">Escolha um tipo de item:</label>
+        <select id="empresta-devolve" name="qual_seu_livro">
+            <option value=""> </option>
+            <option value="emprestar">Quero pegar um item emprestado</option>
+            <option value="devolver">Quero devolver um item</option>
+        </select>
+        <input type="text" id="input" name="nome" required>
+        <button id="btn-procurar">aperte aqui</button>
+        <ul id="lista-de-procura">
+
+        </ul>
+    </div>
+    <script type= "module" src= "main.js"></script>
+    
+</body>
+</html>
